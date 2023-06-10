@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+:root{
+    /*Colors*/
+    --white: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+    /*Font*/
+    --font: 'Outfit';
+}
+body,
+main,
+.text{
+    display: flex;
+}
+body{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background:var(--Light-gray);
+}
+main{
+    width: 20rem;
+    height: 31rem;
+    flex-direction: column;
+    align-items: center;
+    background: var(--white);
+    border-radius: 1.125em;
+    box-shadow: 0.1em 0.1em 0.9em rgba(0, 0, 0, 0.228);
+}
+.qr-code img{
+    border-radius: 0.75em;
+    margin: 1em 0;
+    width: 18rem;
+    height: 18rem;
+}
+.text{
+    display: block;
+    margin: em;
+    padding: 0.5em 1.2em;
+    text-align: center;
+
+}
+.projects{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(--Dark-blue);
+}
+.scan{
+    margin: 0.8em 0;
+    color: var(--Grayish-blue);
+}
+/*thanks for visiting*/
+    
+
+
+    
+    
+
+    
