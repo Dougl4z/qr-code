@@ -26,7 +26,7 @@ body{
 }
 main{
     width: 20rem;
-    height: 31rem;
+    height: fit-content;
     flex-direction: column;
     align-items: center;
     background: var(--white);
@@ -41,7 +41,7 @@ main{
 }
 .text{
     display: block;
-    margin: em;
+    margin: 0 0 1em 0;
     padding: 0.5em 1.2em;
     text-align: center;
 
